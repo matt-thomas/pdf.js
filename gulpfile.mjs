@@ -43,7 +43,7 @@ import zip from "gulp-zip";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const BUILD_DIR = "build/";
+const BUILD_DIR = "../static/build/";
 const L10N_DIR = "l10n/";
 const TEST_DIR = "test/";
 const EXTENSION_SRC_DIR = "extensions/";
