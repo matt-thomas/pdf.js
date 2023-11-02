@@ -17,11 +17,11 @@ pdfjs-page-input =
 # Variables:
 #   $pagesCount (Number) - the total number of pages in the document
 # This string follows an input field with the number of the page currently displayed.
-pdfjs-of-pages = of { $pagesCount }
+pdfjs-of-pages = / { $pagesCount }
 # Variables:
 #   $pageNumber (Number) - the currently visible page
 #   $pagesCount (Number) - the total number of pages in the document
-pdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })
+pdfjs-page-of-pages = ({ $pageNumber } / { $pagesCount })
 pdfjs-zoom-out-button =
     .title = Zoom Out
 pdfjs-zoom-out-button-label = Zoom Out

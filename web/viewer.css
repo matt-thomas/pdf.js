@@ -41,7 +41,7 @@
 
   --sidebar-narrow-bg-color: rgb(212 212 215 / 0.9);
   --sidebar-toolbar-bg-color: rgb(245 246 247);
-  --toolbar-bg-color: rgb(249 249 250);
+  --toolbar-bg-color: #FFFFFF;
   --toolbar-border-color: rgb(184 184 184);
   --toolbar-box-shadow: 0 1px 0 var(--toolbar-border-color);
   --toolbar-border-bottom: none;
@@ -744,6 +744,8 @@ body {
   width: 1px;
   height: 20px;
   background-color: var(--separator-color);
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .toolbarButton,

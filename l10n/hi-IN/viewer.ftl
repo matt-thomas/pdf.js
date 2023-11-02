@@ -21,7 +21,7 @@ pdfjs-of-pages = { $pagesCount } का
 # Variables:
 #   $pageNumber (Number) - the currently visible page
 #   $pagesCount (Number) - the total number of pages in the document
-pdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })
+pdfjs-page-of-pages = ({ $pageNumber } / { $pagesCount })
 pdfjs-zoom-out-button =
     .title = छोटा करें
 pdfjs-zoom-out-button-label = छोटा करें
