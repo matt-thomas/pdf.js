@@ -1827,6 +1827,7 @@ const PDFViewerApplication = {
     const pagesOverview = this.pdfViewer.getPagesOverview();
     const printContainer = this.appConfig.printContainer;
     const printResolution = AppOptions.get("printResolution");
+    console.log(printResolution);
     const optionalContentConfigPromise =
       this.pdfViewer.optionalContentConfigPromise;
 

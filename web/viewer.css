@@ -740,12 +740,10 @@ body {
 
 .splitToolbarButtonSeparator {
   float: var(--inline-start);
-  margin: 4px 0;
+  margin: 4px 25px;
   width: 1px;
   height: 20px;
   background-color: var(--separator-color);
-  padding-right: 50px;
-  padding-left: 50px;
 }
 
 .toolbarButton,
@@ -1133,7 +1131,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"] {
   margin: 2px;
   border-radius: 2px;
   color: var(--main-color);
-  font-size: 12px;
+  font: message-box;
   line-height: 14px;
   text-align: left;
   user-select: none;
